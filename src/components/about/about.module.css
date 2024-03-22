@@ -1,0 +1,36 @@
+*{
+    color: #fff;
+}
+
+.introText{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.introText2{
+    font-family: Messina Sans Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: end;
+    margin-bottom: 36px;
+}
+
+.photo {
+    width: 216px;
+    height: 284px;
+    transform: scaleX(-1)
+}
+.pinkText{
+    color: #DC3B5A;
+}
+.aboutList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    gap: 5px;
+    margin-bottom: 40px;
+}

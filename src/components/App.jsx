@@ -1,5 +1,5 @@
 // import css from 'index.css';
-// import About from './about/About';
+import About from './about/About';
 // import Arts from './arts/Arts';
 // import Burger from './burger/Burger';
 // import ContactUs from './contactUs/ContactUs';
@@ -15,6 +15,7 @@ export const App = () => {
   return (
     <div className={css.container}>
       <Header/>
+      <About/>
       {/* <Footer/>
       <Faq/> */}
     </div>
