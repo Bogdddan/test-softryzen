@@ -1,6 +1,92 @@
-.header{
-    color: red;
+.photo {
+    width: 216px;
+    height: 284px;
+    z-index: 1;
+}
+
+.logo {
+    width: 48px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.text {
     font-family: 'Biro Script Plus Bold US';
-    font-weight: bold;
-    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.68;
+}
+.textList{
+    margin-top: 20px;
+}
+
+.headerList {
+    display: flex;
+    justify-content: center;
+    background-color: #DC3B5A;
+    border-radius: 12px;
+    width: 90%;
+}
+
+.headerList>li {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.headerList>li:first-child {
+    padding-left: 5px;
+}
+
+.headerList>li:last-child {
+    padding-right: 5px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 8px;
+}
+
+.menuSchema {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: #1E1E1E1A;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 216px;
+    background-color: #1E1E1E1A;
+    overflow: hidden;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: -5px;
+    z-index: 5;
+
+    /* margin-bottom: 12px; */
+}
+
+button p {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.apeDescription {
+    margin-bottom: 19px;
+    font-family: Messina Sans Mono;
+    font-size: 12px;
+    line-height: 1.16;
 }
