@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-softryzen/static/css/main.c3246969.css",
-    "main.js": "/test-softryzen/static/js/main.01393376.js",
+    "main.css": "/test-softryzen/static/css/main.d07393cf.css",
+    "main.js": "/test-softryzen/static/js/main.c553b872.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/test-softryzen/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/test-softryzen/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/test-softryzen/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -51,15 +51,19 @@
     "static/media/MessinaSansMono-Bold.woff2": "/test-softryzen/static/media/MessinaSansMono-Bold.61910e51851cc8d59a12.woff2",
     "static/media/MessinaSansMono-Black.woff2": "/test-softryzen/static/media/MessinaSansMono-Black.371abe33808d4457f340.woff2",
     "static/media/logo.svg": "/test-softryzen/static/media/logo.3352dded6d27f9b1100a8470b26b4bd8.svg",
+    "static/media/modal-logo.svg": "/test-softryzen/static/media/modal-logo.3961fe945426dab7c9ea1f2a42bb2797.svg",
     "static/media/logo-ship.svg": "/test-softryzen/static/media/logo-ship.03417dc85646cab22f8e5e971122fe54.svg",
+    "static/media/ship-modal.svg": "/test-softryzen/static/media/ship-modal.c14604b37add7db8568b29e1ec796ac6.svg",
     "static/media/discord_logo.svg": "/test-softryzen/static/media/discord_logo.f6e3c4f619084bb5c75528f29260d8ec.svg",
+    "static/media/discord-modal.svg": "/test-softryzen/static/media/discord-modal.9fec77e05232f037c5d7c220fcf25791.svg",
     "index.html": "/test-softryzen/index.html",
     "static/media/xLogo.svg": "/test-softryzen/static/media/xLogo.ecd425da2337a17970f6643997217eb6.svg",
-    "main.c3246969.css.map": "/test-softryzen/static/css/main.c3246969.css.map",
-    "main.01393376.js.map": "/test-softryzen/static/js/main.01393376.js.map"
+    "static/media/x-modal.svg": "/test-softryzen/static/media/x-modal.8168768b9df0f57b51208319e0dcaa7a.svg",
+    "main.d07393cf.css.map": "/test-softryzen/static/css/main.d07393cf.css.map",
+    "main.c553b872.js.map": "/test-softryzen/static/js/main.c553b872.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3246969.css",
-    "static/js/main.01393376.js"
+    "static/css/main.d07393cf.css",
+    "static/js/main.c553b872.js"
   ]
 }
