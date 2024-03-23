@@ -27,7 +27,7 @@ function Header() {
             <p className={css.text}>Apes aRe eveRywhere</p>
           </div>
           <img className={css.photo} src="https://s3-alpha-sig.figma.com/img/e878/96ec/ecc8928dd98e38ca2991c1f90127dd7c?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ku7oLN6GgCaHqqCAkzX8WWJRcYiPKrrDtseCfyBX3kdq~eJKGuB0qljtUHAhPcRJbWyEVUjU5~-A-Oyw--FJnDxYhTOrUiMpsC39ivAKxIc5GwVQZWctA1wB7-TovF9sB5xxe7vYU70ifLwtmcg8eauEjvOTUrMwp1FqnpJkJTZNfq0U6kCqOoFzDlqH2fhLVhUzu3CcWKxuU--CUND1gqUAFK4jK0p564rRt80rwcB7Hl63r4q49sGKXG8-WdTgj35CjMZYRG9~mJ973EuSEVx-slESZ7T6xGuGUinyUsywT0-lEQXC~qL2J~NY9mJpN274dZMcLcTkYCEGTM58tA__" alt="ape" /><br />
-          <button><p>Meet Apes</p></button>
+          <button className={css.headerButton}><p>Meet Apes</p></button>
           <p className={css.apeDescription}>Yacht Ape is a collection of <br /> unique digital apes that you <br /> can own in NFT format</p>
         </li>
         <li>

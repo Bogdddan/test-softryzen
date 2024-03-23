@@ -76,7 +76,7 @@ section {
     justify-content: center;
 }
 
-button {
+.headerButton {
     width: 216px;
     background-color: #1E1E1E1A;
     overflow: hidden;
@@ -89,7 +89,7 @@ button {
     /* margin-bottom: 12px; */
 }
 
-button p {
+.headerButton > p {
     padding: 10px 0;
     color: #fff;
     font-size: 15px;
