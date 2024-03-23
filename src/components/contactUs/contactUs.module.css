@@ -1,0 +1,50 @@
+.contactUsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 55%;
+}
+.contactUsList li{
+    width: 100%;
+}
+.contactUsList li p{
+    margin-bottom: 16px;
+}
+.contactUsList > li div{
+    text-align: center;
+}
+.contactUsList > p{
+    font-family: Messina Sans Mono;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contactUsForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contactUsForm input{
+    width: 100%;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid wheat;
+    border-radius: 8px;
+}
+.contactUsFormButton{
+    background-color: #DC3B5A;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    width: 100%;
+    border: none;
+    margin-bottom: 60px;
+}
