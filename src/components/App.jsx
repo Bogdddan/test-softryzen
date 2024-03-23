@@ -4,7 +4,7 @@ import About from './about/About';
 // import Burger from './burger/Burger';
 // import ContactUs from './contactUs/ContactUs';
 // import Faq from './faq/Faq';
-// import Footer from './footer/Footer';
+import Footer from './footer/Footer';
 import Header from './header/Header';
 // import Hero from './hero/Hero';
 // import MindMap from './mindMap/MindMap';
@@ -16,8 +16,7 @@ export const App = () => {
     <div className={css.container}>
       <Header/>
       <About/>
-      {/* <Footer/>
-      <Faq/> */}
+      <Footer/>
     </div>
   );
 };
