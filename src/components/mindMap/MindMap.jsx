@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import css from './mindMap.module.css'; // Імпортуйте файл CSS модуля
+import React from 'react';
+// import css from './mindMap.module.css'; // Імпортуйте файл CSS модуля
 
 function MindMap() {
 
@@ -23,7 +23,7 @@ function MindMap() {
 
   return (
     <>
-      
+
     </>
   );
 }

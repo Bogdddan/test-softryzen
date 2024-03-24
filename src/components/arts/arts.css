@@ -1,0 +1,21 @@
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.flex_row{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.thumbmail{
+    padding-left: 20px;
+}
+.clicked{
+    border: 1px solid black
+}
+.btns{
+    height: 20px;
+    border-radius: 5px;
+    background-color: gray;
+}
