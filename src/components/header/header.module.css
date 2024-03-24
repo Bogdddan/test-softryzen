@@ -184,7 +184,8 @@ section {
         margin-top: 104px;
     }
     .buttonText{
-        
+        display: flex;
+        flex-direction: column-reverse;
         position: absolute;
         right: 40px;
     }
@@ -211,5 +212,39 @@ section {
         color: black;
         padding-left: 5px;
         width: max-content;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .photo{
+        width: 511px;
+        height: 675px;
+    }
+    .headerList{
+        height: 720px;
+    }
+    h1 {
+        font-size: 170px;
+    }
+    .tetx{
+        font-size: 24px;
+    }
+    .headerButton{
+        width: 337px;
+        height: 70px;
+    }
+    .headerButton>p {
+        font-size: 28px;
+    }
+    .apeDescription {
+        font-size: 16px;
+    }
+    .buttonText{
+        position: absolute;
+        bottom: 111px;
+    }
+    .logo{
+        left: 42px;
+        height: 50px;
+        width: 72px;
     }
 }
