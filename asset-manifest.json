@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-softryzen/static/css/main.7aa2895b.css",
+    "main.css": "/test-softryzen/static/css/main.88a377c9.css",
     "main.js": "/test-softryzen/static/js/main.a6c7d9ba.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/test-softryzen/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/test-softryzen/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
@@ -60,11 +60,11 @@
     "static/media/xLogo.svg": "/test-softryzen/static/media/xLogo.ecd425da2337a17970f6643997217eb6.svg",
     "static/media/x-modal.svg": "/test-softryzen/static/media/x-modal.8168768b9df0f57b51208319e0dcaa7a.svg",
     "static/media/arrow.svg": "/test-softryzen/static/media/arrow.a9d980fecf8664800e05ff560411ced6.svg",
-    "main.7aa2895b.css.map": "/test-softryzen/static/css/main.7aa2895b.css.map",
+    "main.88a377c9.css.map": "/test-softryzen/static/css/main.88a377c9.css.map",
     "main.a6c7d9ba.js.map": "/test-softryzen/static/js/main.a6c7d9ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.7aa2895b.css",
+    "static/css/main.88a377c9.css",
     "static/js/main.a6c7d9ba.js"
   ]
 }
