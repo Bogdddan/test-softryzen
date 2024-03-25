@@ -195,24 +195,33 @@ section {
     .modal{
         display: none;
     }
-    .modalNavTabl{
-        display: flex;
-    }
     .tablMenu{
         display: flex;
         flex-direction: row-reverse;
     }
     .modalNavTabl{
+        display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
         border-radius: 10px 0 0 10px;
         background-color: #1E1E1E1A;
     }
     .modalNavTabl li{
         color: black;
         padding-left: 5px;
-        width: max-content;
+        right: 30px;
     }
+    .nav {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end;
+        gap: 10px;
+        margin-left: 8px;
+        z-index: 1;
+        position: absolute;
+        right: 20px;
+      }
 }
 @media screen and (min-width: 1280px) {
     .photo{
@@ -246,5 +255,18 @@ section {
         left: 42px;
         height: 50px;
         width: 72px;
+    }
+    .menuSchema{
+        width: 60px;
+        height: 60px;
+    }
+    .textList{
+        margin-top: 200px;
+    }
+    .text:first-child{
+        margin-left: 0;
+    }
+    .text{
+        margin-left: 176px;
     }
 }
