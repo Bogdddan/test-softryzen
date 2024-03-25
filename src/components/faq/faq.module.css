@@ -20,6 +20,9 @@
     font-weight: 400;
     font-size: 12px;
 }
+.questionContainer{
+    cursor: pointer;
+}
 .dsd{
     gap: 5px;
     align-items: baseline;
@@ -48,9 +51,15 @@ h2{
     h2{
         font-size: 80px;
     }
+    .questionContainer{
+        width: 350px;
+    }
 }
 @media screen and (min-width: 1280px) {
     h2{
         font-size: 160px;
+    }
+    .questionContainer{
+        width: 650px;
     }
 }

@@ -26,7 +26,7 @@ const FAQ = () => {
         <div key={index} className={css.dsd} onClick={() => toggleQuestion(index)}>
           <div>
             <div className={css.questionNumber}>[{index + 1}]  </div>
-            <div>
+            <div className={css.questionContainer}>
               <div className={css.faqQuestion}>{faq.question}</div>
               <div> {openedQuestion === index && <div className={css.faqAnswer}>{faq.answer}</div>}</div>
             </div>
