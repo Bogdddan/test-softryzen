@@ -1,0 +1,78 @@
+.mindMapGrid {
+    display: grid;
+
+}
+
+.mindMapBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mindMapPrevBtn {
+    background-color: transparent;
+    border: none;
+    margin-right: 48px;
+}
+
+.mindMapPrevBtn>p {
+    font-family:  Biro Script Plus;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.mindMapNextBtn {
+    background-color: transparent;
+    border: none;
+}
+.mindMapNextBtn>p {
+    font-family:  Biro Script Plus;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.mindMapCont>h2 {
+    margin-top: 60px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+}
+
+.mindMapList {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mindMapList li {
+    display: flex;
+    font-family: Messina Sans Mono;
+    width: 216px;
+    height: 242px;
+    border-radius: 16px;
+    background-color: red;
+    overflow: hidden;
+}
+.mindMapItem{
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .mindMapList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mindMapList li {
+        width: 284px;
+        height: 242px;
+    }
+    .mindMapBtns{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {}
