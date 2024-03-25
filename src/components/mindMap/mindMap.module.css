@@ -3,6 +3,17 @@
 
 }
 
+h2{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.mindMapLastCard {
+    border-radius: 24px;
+    background-color: #DC3B5A;
+    text-align: center;
+}
+
 .mindMapBtns {
     display: flex;
     align-items: center;
@@ -33,8 +44,8 @@
     font-size: 24px;
 }
 
-.mindMapCont>h2 {
-    margin-top: 60px;
+h2 {
+    margin-top: 45px;
     margin-bottom: 24px;
     font-weight: 900;
     font-size: 44px;
@@ -48,6 +59,7 @@
     justify-content: center;
 }
 
+
 .mindMapList li {
     font-family: Messina Sans Mono;
     width: 216px;
@@ -56,6 +68,9 @@
     background-color: #1E1E1E;
 
     overflow: hidden;
+}
+.mindMapList li:last-child {
+    background-color: #DC3B5A;
 }
 
 .mindMapItem {
@@ -92,16 +107,24 @@
         display: none;
     }
 
+    h2{
+        font-size: 65px;
+    }
+
     .mindMapListTablDesk {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
+    .mindMapListTablDesk li:last-child{
+        background-color: #DC3B5A;
+    }
 
     .mindMapDesc {
         width: 128px;
     }
-    .card{
+
+    .card {
         align-items: center;
         justify-content: space-between;
     }
@@ -119,19 +142,27 @@
     .mindMapListTablDesk {
         gap: 46px;
     }
+
     .mindMapDesc {
         width: 256px;
     }
+
     .mindMapListTablDesk li {
         padding: 20px;
         border-radius: 16px;
         width: 520px;
         height: 440px;
     }
+
+    h2{
+        font-size: 90px;
+    }
+
     .mindMapDesc {
         height: 360px;
     }
-    .mindMapNav{
+
+    .mindMapNav {
         margin-top: 50px;
     }
 }

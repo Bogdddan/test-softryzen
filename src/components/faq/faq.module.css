@@ -39,3 +39,18 @@
     font-size: 12px;
     line-height: 0,8;
 }
+h2{
+    font-weight: 900;
+    font-size: 44px;
+}
+
+@media screen and (min-width: 768px) {
+    h2{
+        font-size: 80px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    h2{
+        font-size: 160px;
+    }
+}

@@ -3,6 +3,11 @@
 
 }
 
+h2 {
+    font-weight: 900;
+    font-size: 44px;
+}
+
 .mindMapBtns {
     display: flex;
     align-items: center;
@@ -33,7 +38,7 @@
     font-size: 24px;
 }
 
-.mindMapCont>h2 {
+h2 {
     margin-top: 60px;
     margin-bottom: 24px;
     font-weight: 900;
@@ -78,7 +83,8 @@
 .mindMapListTablDesk {
     display: none;
 }
-.collectionCard{
+
+.collectionCard {
     width: 216px;
     height: 242px;
 }
@@ -95,7 +101,8 @@
     .mindMapDesc {
         width: 128px;
     }
-    .card{
+
+    .card {
         align-items: center;
         justify-content: space-between;
     }
@@ -107,25 +114,37 @@
         width: 264px;
         height: 222px;
     }
+
+    h2 {
+        font-size: 80px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .mindMapListTablDesk {
         gap: 46px;
     }
+
     .mindMapDesc {
         width: 256px;
     }
+
     .mindMapListTablDesk li {
         padding: 20px;
         border-radius: 16px;
         width: 520px;
         height: 440px;
     }
+
     .mindMapDesc {
         height: 360px;
     }
-    .mindMapNav{
+
+    .mindMapNav {
         margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 160px;
     }
 }

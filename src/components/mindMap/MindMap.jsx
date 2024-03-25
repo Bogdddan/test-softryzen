@@ -21,7 +21,7 @@ function MindMap() {
     <div className={css.card}>
       <img src={arrow} alt="arrow" />
       <p className={css.mindMapNav}>LEARN MORE IN MIND MAP</p>
-    </div>,
+    </div>
   ];
 
   const handlePrevClick = () => {
