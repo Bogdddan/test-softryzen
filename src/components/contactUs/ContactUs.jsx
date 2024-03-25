@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './contactUs.module.css';
-import discordSvg from '../../svg/discord-logo-contactUs.svg';
-import metamaskIcon from '../../svg/metamask.svg';
+// import discordSvg from '../../svg/discord-logo-contactUs.svg';
+// import metamaskIcon from '../../svg/metamask.svg';
 
 function ContactUs() {
   return (

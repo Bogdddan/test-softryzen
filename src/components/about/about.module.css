@@ -3,6 +3,7 @@
 }
 
 .introText{
+    text-align: start;
     margin-top: 60px;
     font-weight: 900;
     font-size: 40px;
