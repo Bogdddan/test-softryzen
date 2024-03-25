@@ -136,6 +136,11 @@ h2 {
         width: 264px;
         height: 222px;
     }
+    .mindMapListTablDesk li:last-child{
+        img{
+            margin-bottom: 100px;
+        }
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -164,5 +169,10 @@ h2 {
 
     .mindMapNav {
         margin-top: 50px;
+    }
+    .mindMapListTablDesk li:last-child{
+        img{
+            margin-bottom: 300px;
+        }
     }
 }
