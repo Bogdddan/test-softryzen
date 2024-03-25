@@ -16,7 +16,7 @@
 }
 
 .mindMapPrevBtn>p {
-    font-family:  Biro Script Plus;
+    font-family: Biro Script Plus;
     font-weight: 400;
     font-size: 24px;
 }
@@ -26,8 +26,9 @@
     background-color: transparent;
     border: none;
 }
+
 .mindMapNextBtn>p {
-    font-family:  Biro Script Plus;
+    font-family: Biro Script Plus;
     font-weight: 400;
     font-size: 24px;
 }
@@ -48,31 +49,89 @@
 }
 
 .mindMapList li {
-    display: flex;
     font-family: Messina Sans Mono;
     width: 216px;
     height: 242px;
     border-radius: 16px;
-    background-color: red;
+    background-color: #1E1E1E;
+
     overflow: hidden;
 }
-.mindMapItem{
+
+.mindMapItem {
     padding: 10px;
+}
+
+.mindMapDesc {
+    height: 160px;
+}
+
+.mindMapNav {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.mindMapListTablDesk {
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
     .mindMapList {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: none;
     }
 
-    .mindMapList li {
-        width: 284px;
-        height: 242px;
-    }
-    .mindMapBtns{
+    .mindMapBtns {
         display: none;
+    }
+
+    .mindMapListTablDesk {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    .mindMapDesc {
+        width: 128px;
+    }
+    .card{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mindMapListTablDesk li {
+        background-color: #1E1E1E;
+        padding: 20px;
+        border-radius: 16px;
+        width: 264px;
+        height: 222px;
     }
 }
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+    .mindMapListTablDesk {
+        gap: 46px;
+    }
+    .mindMapDesc {
+        width: 256px;
+    }
+    .mindMapListTablDesk li {
+        padding: 20px;
+        border-radius: 16px;
+        width: 520px;
+        height: 440px;
+    }
+    .mindMapDesc {
+        height: 360px;
+    }
+    .mindMapNav{
+        margin-top: 50px;
+    }
+}
