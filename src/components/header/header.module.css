@@ -76,6 +76,7 @@ section {
     border-radius: 8px;
     display: flex;
     align-items: center;
+    cursor: pointer;
     justify-content: center;
 }
 
@@ -154,7 +155,8 @@ section {
 .modal button {
     color: #fff;
 }
-.navNav{
+
+.navNav {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -169,37 +171,45 @@ section {
     h1 {
         font-size: 92px;
     }
-    .photo{
+
+    .photo {
         width: 283px;
         height: 386px;
         position: absolute;
         bottom: 0;
         transform: translate(-50%);
     }
-    .headerList{
+
+    .headerList {
         height: 421px;
     }
-    .textList{
+
+    .textList {
         text-align: start;
         margin-top: 104px;
     }
-    .buttonText{
+
+    .buttonText {
         display: flex;
         flex-direction: column-reverse;
         position: absolute;
         right: 40px;
     }
-    .logo{
+
+    .logo {
         left: 28px;
     }
-    .modal{
+
+    .modal {
         display: none;
     }
-    .tablMenu{
+
+    .tablMenu {
         display: flex;
         flex-direction: row-reverse;
     }
-    .modalNavTabl{
+
+    .modalNavTabl {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -207,66 +217,81 @@ section {
         border-radius: 10px 0 0 10px;
         background-color: #1E1E1E1A;
     }
-    .modalNavTabl li{
+
+    .modalNavTabl li {
         color: black;
         padding-left: 5px;
         right: 30px;
     }
+
     .nav {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: flex-end;
         gap: 10px;
         margin-left: 8px;
         z-index: 1;
         position: absolute;
         right: 20px;
-      }
+    }
 }
+
 @media screen and (min-width: 1280px) {
-    .photo{
+    .photo {
         width: 511px;
         height: 675px;
     }
-    .headerList{
+
+    .headerList {
         height: 720px;
     }
+
     h1 {
         font-size: 170px;
     }
-    .tetx{
+
+    .tetx {
         font-size: 24px;
     }
-    .headerButton{
+
+    .headerButton {
         width: 337px;
         height: 70px;
     }
+
     .headerButton>p {
         font-size: 28px;
     }
+
     .apeDescription {
         font-size: 16px;
     }
-    .buttonText{
+
+    .buttonText {
         position: absolute;
         bottom: 111px;
     }
-    .logo{
+
+    .logo {
         left: 42px;
         height: 50px;
         width: 72px;
     }
-    .menuSchema{
+
+    .menuSchema {
         width: 60px;
         height: 60px;
     }
-    .textList{
+
+    .textList {
         margin-top: 200px;
     }
-    .text:first-child{
+
+    .text:first-child {
         margin-left: 0;
     }
-    .text{
+
+    .text {
         margin-left: 176px;
     }
 }
