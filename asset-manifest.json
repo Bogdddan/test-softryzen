@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-softryzen/static/css/main.a30204b2.css",
-    "main.js": "/test-softryzen/static/js/main.b1f1bd1a.js",
+    "main.css": "/test-softryzen/static/css/main.16b72554.css",
+    "main.js": "/test-softryzen/static/js/main.6201bce6.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/test-softryzen/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/test-softryzen/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/test-softryzen/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -59,11 +59,12 @@
     "index.html": "/test-softryzen/index.html",
     "static/media/xLogo.svg": "/test-softryzen/static/media/xLogo.ecd425da2337a17970f6643997217eb6.svg",
     "static/media/x-modal.svg": "/test-softryzen/static/media/x-modal.8168768b9df0f57b51208319e0dcaa7a.svg",
-    "main.a30204b2.css.map": "/test-softryzen/static/css/main.a30204b2.css.map",
-    "main.b1f1bd1a.js.map": "/test-softryzen/static/js/main.b1f1bd1a.js.map"
+    "static/media/arrow.svg": "/test-softryzen/static/media/arrow.a9d980fecf8664800e05ff560411ced6.svg",
+    "main.16b72554.css.map": "/test-softryzen/static/css/main.16b72554.css.map",
+    "main.6201bce6.js.map": "/test-softryzen/static/js/main.6201bce6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a30204b2.css",
-    "static/js/main.b1f1bd1a.js"
+    "static/css/main.16b72554.css",
+    "static/js/main.6201bce6.js"
   ]
 }
