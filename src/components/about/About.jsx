@@ -5,7 +5,7 @@ function About() {
   return (
     <>
       <div className={css.aboutText}>
-        <h2 className={css.introText}>a Story that <br /> started <br /> with <span className={css.pinkText}>one <br /> simple</span> <br /> <span className={css.pinkText}>ape</span></h2>
+        <h2 className={css.introText}>A STORY THAT <br /> STARTED <br /> WITH <span className={css.pinkText}>ONE <br /> SIMPLE</span> <br /> <span className={css.pinkText}>APE</span></h2>
         <h3 className={css.introText2}>WHO GOT <br /> FED UP WITH BORING <br /> AND HYPOCRITIC <br /> COMMONPLACE THIS IS <br /> HOW THE IDEA OF <br /> ESCAPING AND DYNAMIC <br /> JOURNEY ON THE YACHT</h3>
       </div>
       <div className={css.aboutPhoto}>

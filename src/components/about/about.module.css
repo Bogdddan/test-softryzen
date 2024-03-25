@@ -51,8 +51,8 @@
     .aboutText{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
+        justify-content: space-between;
+        width: 80%;
     }
     .aboutPhoto{
         display: flex;
@@ -60,7 +60,7 @@
         justify-content: flex-end;
     }
     .aboutList{
-        width: 269px;
+        width: 440px;
         margin-bottom:100px;
     }
     .photo{
@@ -71,5 +71,21 @@
     }
     .banner{
         width: 100%;
+    }
+    .aboutList{
+        font-family: Messina Sans Mono;
+        font-size: 24px;
+        gap: 42px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .photo{
+        width: 615px;
+        height: 822px;
+    }
+    .banner{
+        position: relative;
+        top: -100px;
     }
 }

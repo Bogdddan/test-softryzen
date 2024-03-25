@@ -1,7 +1,6 @@
 @import-normalize; /* bring in normalize.css styles */
 @import url('/src/fonts/BiroScript/stylesheet.css');
 @import url('/src/fonts/MessinaSans/stylesheet.css');
-/* @import url('/src/fonts/RightGrotesk/RightGrotesk-CompactBlack.otf'); */
 
 *{
   list-style: none;
