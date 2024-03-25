@@ -1,4 +1,131 @@
-.artsPhoto{
-    width: 100px;
-    height: 100px;
+.mindMapGrid {
+    display: grid;
+
+}
+
+.mindMapBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mindMapPrevBtn {
+    background-color: transparent;
+    border: none;
+    margin-right: 48px;
+}
+
+.mindMapPrevBtn>p {
+    font-family: Biro Script Plus;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.mindMapNextBtn {
+    background-color: transparent;
+    border: none;
+}
+
+.mindMapNextBtn>p {
+    font-family: Biro Script Plus;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.mindMapCont>h2 {
+    margin-top: 60px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+}
+
+.mindMapList {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mindMapList li {
+    font-family: Messina Sans Mono;
+    width: 216px;
+    height: 242px;
+    border-radius: 16px;
+    background-color: #1E1E1E;
+
+    overflow: hidden;
+}
+
+.mindMapDesc {
+    height: 160px;
+}
+
+.mindMapNav {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.mindMapListTablDesk {
+    display: none;
+}
+.collectionCard{
+    width: 216px;
+    height: 242px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .mindMapListTablDesk {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    .mindMapDesc {
+        width: 128px;
+    }
+    .card{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mindMapListTablDesk li {
+        background-color: #1E1E1E;
+        padding: 20px;
+        border-radius: 16px;
+        width: 264px;
+        height: 222px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .mindMapListTablDesk {
+        gap: 46px;
+    }
+    .mindMapDesc {
+        width: 256px;
+    }
+    .mindMapListTablDesk li {
+        padding: 20px;
+        border-radius: 16px;
+        width: 520px;
+        height: 440px;
+    }
+    .mindMapDesc {
+        height: 360px;
+    }
+    .mindMapNav{
+        margin-top: 50px;
+    }
 }
